@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.venusic'
+group = 'com.github.venusic'
 android {
     compileSdkVersion 26
     defaultConfig {
@@ -23,5 +23,7 @@ android {
 }
 
 dependencies {
-    provided "com.github.bumptech.glide:glide:3.7.0"
+    implementation "com.github.bumptech.glide:glide:3.7.0"
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 }
